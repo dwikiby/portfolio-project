@@ -17,32 +17,37 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About me 👋🏻</SectionHeading>
       <p className="mb-3">
-        After graduating with a bachelor degree in{" "}
-        <span className="font-medium">Computer Engineering</span>, I decided to
-        pursue my passion for programming. I enrolled in a coding bootcamp and
-        learned <span className="font-medium">backend web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I'm currently a full-time backend developer at{" "}
+        <span className="font-medium">GetOrders</span>, where I get to channel
+        my passion for software development into building robust backend
+        systems. Armed with a degree in{" "}
+        <span className="font-medium">Computer Engineering</span>, my journey
+        into the programming world ignited after completing my bachelor's
+        degree. Through a coding bootcamp, I delved deep into the realms of{" "}
+        <span className="font-medium">backend web development</span>, and the
+        thrill of problem-solving has kept me captivated ever since.
+        <span className="italic"> Solving problems</span> is my forte—I relish
+        that "Aha!" moment when a solution clicks into place. My tech arsenal
+        includes{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        , complemented by proficiency in TypeScript and Prisma. Eager to broaden
+        my horizons, I'm constantly exploring new technologies and pushing the
+        boundaries of what's possible. Currently, I'm on the lookout for
+        exciting challenges and growth opportunities as a{" "}
+        <span className="font-medium">full-time backend developer</span>.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not immersed in code,</span> you'll
+        find me navigating the fascinating landscape of AWS Lambda, API Gateway,
+        and crafting Node.js scripts. I thrive on the intricacies of backend
+        development, constantly honing my skills to create efficient and
+        scalable solutions. Join me on this journey where every line of code is
+        an opportunity to innovate.
       </p>
     </motion.section>
   );

@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">I'm Dwiki, your friendly code ninja!</span>
-        <br></br>With{" "}
+        <br></br>with{" "}
         <span className="font-bold">2 years of coding adventures.</span>
         <br />I love building <span className="italic">cool sites & apps</span>.
         Currently hooked on <span className="underline">Next.js</span>. Let's
@@ -101,7 +101,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/dwiki-ramadhan/"
           target="_blank"
         >
           <BsLinkedin />
@@ -109,7 +109,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/dwikiby"
           target="_blank"
         >
           <FaGithubSquare />

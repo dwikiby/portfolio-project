@@ -2,10 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import avatarCraft from "@/public/avatar-ai.png";
 import cloudGo from "@/public/cloud-go.png";
+import ecommerce from "@/public/e-commerce.png";
 
 export const links = [
   {
@@ -77,11 +77,11 @@ export const projectsData = [
     imageUrl: cloudGo,
   },
   {
-    title: "Word Analytics",
+    title: "Nest Ecommerce",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This is personal project making online store providing some food and beverages with Laravel, integrate with stripe. Managing vendor and customer sides.",
+    tags: ["Laravel", "MySQL", "Bootstrap"],
+    imageUrl: ecommerce,
   },
 ] as const;
 
@@ -104,4 +104,5 @@ export const skillsData = [
   "Nest.js",
   "Express",
   "PostgreSQL",
+  "Laravel",
 ] as const;
