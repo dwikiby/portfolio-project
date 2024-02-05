@@ -9,10 +9,32 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { TypewriterEffect } from "./ui/typewriter-effect";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const words = [
+    {
+      text: "I'm",
+    },
+    {
+      text: "Dwiki,",
+    },
+    {
+      text: "your",
+    },
+    {
+      text: "friendly",
+    },
+    {
+      text: "code",
+    },
+    {
+      text: "ninja.",
+      className: "text-dark-500 dark:text-white-500",
+    },
+  ];
 
   return (
     <section
@@ -62,8 +84,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">I'm Dwiki, your friendly code ninja!</span>
-        <br></br>with{" "}
+        <TypewriterEffect words={words} />
         <span className="font-bold">2 years of coding adventures.</span>
         <br />I love building <span className="italic">cool sites & apps</span>.
         Currently hooked on <span className="underline">Next.js</span>. Let's
@@ -89,7 +110,6 @@ export default function Intro() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
