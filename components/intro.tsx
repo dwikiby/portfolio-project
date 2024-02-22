@@ -10,6 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { TypewriterEffect } from "./ui/typewriter-effect";
+import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -87,7 +88,7 @@ export default function Intro() {
         <TypewriterEffect words={words} />
         <span className="font-bold">2 years of coding adventures.</span>
         <br />I love building <span className="italic">cool sites & apps</span>.
-        Currently hooked on <span className="underline">Next.js</span>. Let's
+        Currently hooked on <span className="font-bold">everything</span>. Let's
         create some digital magic together 🪄
       </motion.h1>
 
